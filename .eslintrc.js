@@ -1,5 +1,8 @@
 module.exports = {
   root: true,
+  env: {
+    'vue/setup-compiler-macros': true,
+  },
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',

@@ -1,4 +1,8 @@
 <template>
+  <BannerSwiper
+    :list="banners"
+    :size="[750, 300]"
+  />
   <view class="content">
     <image
       class="logo"
@@ -17,6 +21,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 const title = ref('Hello');
+const banners = [1, 2];
 </script>
 
 <style>
